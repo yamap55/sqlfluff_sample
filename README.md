@@ -23,3 +23,10 @@
 4. しばらく待つ
    - 初回の場合コンテナー image の取得や作成が行われる
 5. 起動したら開発可能
+
+## サンプル実行
+
+```
+sqlfluff lint --dialect postgres ./sql/sample1.sql
+sqlfluff fix --dialect postgres ./sql/sample1.sql
+```
